@@ -1,16 +1,16 @@
 package org.example;
 
-import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
 
-@XmlRootElement()
-public class Libro {
+@XmlType(propOrder = {"autor", "nombre", "editorial", "isbn"})
+public class Libro02 {
     private String nombre;
     private String autor;
     private String editorial;
     private String isbn;
 
-    public Libro(String nombre, String autor, String editorial,
-                 String isbn) {
+    public Libro02(String nombre, String autor, String editorial,
+                   String isbn) {
         super();
         this.nombre = nombre;
         this.autor = autor;
@@ -18,7 +18,7 @@ public class Libro {
         this.isbn = isbn;
     }
 
-    public Libro() {
+    public Libro02() {
     }
 
     public String getNombre() {
