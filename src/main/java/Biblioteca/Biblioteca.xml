@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<misLibrerias>
+    <misLibrerias>
+        <nombre>Libreria1</nombre>
+        <lugar>Madrid</lugar>
+        <MiListaLibrOS>
+            <Libro>
+                <autor>Alicia Ramos</autor>
+                <nombre>Entornos de Desarrollo</nombre>
+                <editorial>Garceta</editorial>
+                <isbn>978-84-1545-297-3</isbn>
+            </Libro>
+            <Libro>
+                <autor>Maria Jesus Ramos</autor>
+                <nombre>Acceso a Datos</nombre>
+                <editorial>Garceta</editorial>
+                <isbn>978-84-1545-297-3</isbn>
+            </Libro>
+        </MiListaLibrOS>
+    </misLibrerias>
+    <misLibrerias>
+        <nombre>Libreria2</nombre>
+        <lugar>Toledo</lugar>
+        <MiListaLibrOS>
+            <Libro>
+                <autor>Nombre libro3</autor>
+                <nombre>libro3</nombre>
+                <editorial>Editorial libro3</editorial>
+                <isbn>ISDN libro3</isbn>
+            </Libro>
+            <Libro>
+                <autor>Nombre libro4</autor>
+                <nombre>libro4</nombre>
+                <editorial>Editorial libro4</editorial>
+                <isbn>ISDN libro4</isbn>
+            </Libro>
+            <Libro>
+                <autor>Nombre libro5</autor>
+                <nombre>libro5</nombre>
+                <editorial>Editorial libro5</editorial>
+                <isbn>ISDN libro5</isbn>
+            </Libro>
+        </MiListaLibrOS>
+    </misLibrerias>
+</misLibrerias>

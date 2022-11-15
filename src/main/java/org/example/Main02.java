@@ -7,7 +7,7 @@ import java.io.File;
 import java.util.ArrayList;
 
 public class Main02 {
-    private static final String MIARCHIVO_XML = "./libreria02.xml";
+    private static final String MIARCHIVO_XML = ".\\src\\main\\java\\org\\example\\libreria02.xml";
 
     public static void main(String[] args) throws JAXBException {
 
